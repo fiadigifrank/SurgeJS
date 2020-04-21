@@ -1,0 +1,18 @@
+#!desc=李哥
+[Script]
+# 人人视频获取
+// rrTV Cookie = type=http-request,pattern=^https:\/\/api\.rr\.tv\/user\/profile,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
+# 京东获取
+// JD_DailyBonus.js = max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean
+# 腾讯视频获取
+//QQVideo Cookie = type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
+
+
+# 人人视频签到
+rrtv.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,type=cron,cronexp=21 7 * * *
+# 京东签到
+JD_DailyBonus.js = script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=cron,cronexp=22 7 * * *
+# 腾讯视频签到
+videoqq.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,type=cron,cronexp=23 7 * * *
+
+
