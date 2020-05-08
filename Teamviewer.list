@@ -1,4 +1,5 @@
 # > TeamViewer
+DOMAIN,*.teamviewer.com
 IP-CIDR,185.188.32.0/24,no-resolve
 IP-CIDR,185.188.33.0/24,no-resolve
 IP-CIDR,185.188.34.0/24,no-resolve
