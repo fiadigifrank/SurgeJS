@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
+http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fiadigifrank/SurgeJS/master/Termius.js
 
 [MITM]
 hostname = api.termius.com
